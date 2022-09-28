@@ -4,7 +4,6 @@ const navLinks = document.querySelectorAll(".nav-links li");
 window.addEventListener("mousemove", cursor);
 
 function cursor(e) {
-  //   console.log(e);
   mouseCursor.style.top = e.pageY + "px";
   mouseCursor.style.left = e.pageX + "px";
 }
